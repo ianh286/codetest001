@@ -13,6 +13,90 @@
   }
 }
 
+.img{
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 5px 10px rgba(255, 255, 255, 0.158);
+
+}
+
+.imgText{
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.imgDesc{
+  text-align: left;
+
+  font-family: fantasy;
+  font-weight:100;
+  font-size: 1rem;
+  color: rgb(147, 168, 226);
+}
+.hr {
+  background: rgba(128, 138, 138, 0.322);
+  position: relative;
+  top: 13px;
+  height: 1px;
+  border: 0px;
+  width: 100%;
+ }
+
+.text-left{
+  text-align: left;
+  color: #61dafb;
+  font-weight: bolder;
+}
+.text-right{
+  text-align: right;
+  color: #bbd2d8;
+}
+  .alt-right{
+    position: relative;
+    bottom: 4px;
+    left: 2px;
+    font-size: 80%;
+}
+
+.alt-left{
+  position: relative;
+  bottom: 4px;
+  font-size: 90%;
+  padding-left: 5%;
+}
+
+.remaining{
+  color: antiquewhite;
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-color: aqua;
+  border-width: .5px;
+}
+table td {
+  /*border: 5px solid rgba(238, 237, 237, 0.644);*/
+}
+.App-Card{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -200px;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(10, 3, 53);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 40px rgb(0, 0, 0);
+  padding: 1rem;
+  color: aliceblue;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +107,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.ian{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
 
+}
 .App-link {
   color: #61dafb;
 }
